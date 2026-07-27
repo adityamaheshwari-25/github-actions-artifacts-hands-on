@@ -28,4 +28,6 @@ jobs:
         with:
           name: hello.txt
           path: ./artifacts
+      - name: Print the file content
+        run: cat ./artifacts/hello.txt
   
